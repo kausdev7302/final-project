@@ -1,0 +1,405 @@
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    
+}
+.all-container{
+    width: 100vw;
+}
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 200%;
+    font-weight: 700;
+    color: #2C2C2C;
+    text-align: center;
+    text-decoration: underline;
+}
+ .content-txt{
+     position: relative;
+     z-index: 3;
+     color: yellowgreen;
+ }
+p{
+    font-family: 'Raleway', Serif;
+    color:blue #2C2C2C;
+    font-size:140%;
+    line-height: 180%;
+    text-align: justify;
+    font-weight: 300;
+}
+#menu-icon{
+    text-align:center;
+    /* background-position: center; */
+    /* background-size: cover; */
+    max-width: 100%;
+    height: auto;
+    width: auto; 
+    /* height: 100vw; */
+    
+}
+.one-third-port img{
+    text-align:center;
+    /* background-position: center; */
+    /* background-size: cover; */
+    max-width: 100%;
+    height: auto;
+    width: auto; 
+    /* height: 100vw; */
+}
+.one-third-port p{
+    position: absolute;
+    margin-top: -250px;
+    opacity: 0;
+    max-width: 25%;
+    
+
+}
+
+.inner{
+    background-position: center;
+    background-size: cover;
+    height: 100vw;
+}
+.intro{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    /* background: url("https://source.unsplash.com/1000x1000/?Photography") no-repeat 50% 50%; */
+    background-size: cover;
+    display: table;
+    top: 0;
+
+}
+.intro .inner{
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+
+}
+.content{
+    max-width: 600px;
+    margin: auto;
+
+}
+h1 {
+    font-family: 'playfair Display', serif;
+    font-size: 300%;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    padding: 2%;
+    text-shadow: 0px 0px 250px #000;
+}
+.content p {
+    color: #FFF;
+}
+.inner{
+
+    /* max-width: 600px;
+    margin:auto;
+    font-size: 170%;
+    line-height: 1.6;
+    padding: 10px; */
+    height: 100vh;
+    width: 50px;
+}
+/*----- Start nav ----*/
+/* 
+nav {
+    float: left;
+    padding: 5% 5% 0 0;
+    height: 50px;
+
+}
+
+nav ul {
+    list-style: none;
+    float: left;
+
+}
+nav ul li {
+    font-family: 'Raleway', sans-serif;
+    font-size: 120%;
+
+}
+nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+
+}
+nav ul li a:hover {
+    text-decoration: underline;
+
+}
+nav ul, nav:active ul {
+    display: none;
+    padding: 8px 0;
+    left: 45px;
+    top: 60px;
+    width: 20%;
+    z-index: 1000;
+}
+nav li {
+    width: 100%;
+    padding: 8px 0 10px 7px;
+    margin: 0;
+
+}
+nav:hover ul {
+    display: block;
+    position: absolute;
+
+} */
+#menu-icon {
+    width: 30;
+    height: 26px;
+    background: url( "/project.image/nav-icon.png") center;
+    filter: saturate();
+    display: inline-block;
+    margin: 50px 0 0 50px;
+}
+
+/*----end nav ---*/
+.left-col {
+    width: 60%;
+    float: left;
+    margin: 4% 0 4% 4%;
+
+}
+.sidebar {
+    width: 26%;
+    float: left;
+    margin:4%;
+}
+.one-third-port {
+    width: 29.33333%;
+    padding: 2%;
+    float: left;
+}
+.one-third-port img:hover {
+    opacity: .6;
+}
+
+.contact p{
+    text-align: center;
+    letter-spacing: 5px;
+}
+.contact a {
+    color: #2C2C2C;
+    text-decoration: none;
+}
+.break {
+    display: none;
+}
+.clearfix {
+    clear: both;
+    height: 3%;
+}
+
+.parallax {
+    background: url("./project.image/ullu6.jpg") repeat fixed 100%;
+    
+}
+.parallax-inner {
+    padding-top: 17%;
+}
+.social {
+    list-style-type: none;
+    text-align: center;
+}
+.social li {
+    display: inline;
+}
+.social i {
+    font-size: 270%;
+    margin: 1% 5% 7% 4%;
+    color: #2C2C2C;
+}
+.social i:hover {
+    color: #606060;
+}
+footer.second {
+    background-color: #2C2C2C;
+}
+footer.second p{
+    color: #FFF;
+    text-align: center;
+    padding: 5%;
+    display: inline;
+    align-items: center;
+}
+@media screen and (max-width: 768px) {
+    #menu-icon {
+        margin:26px 0 0 26px;
+    }
+    nav ul,nav:active ul {
+        padding: 8px 0;
+        left: 23px;
+        top: 34px;
+        width: 30%;
+
+    }
+    .inner {
+        font-size:120%;
+
+    }
+    .content h1 {
+        font-size: 180%;
+    }
+    p{ 
+        font-size:120%;
+    }
+    h2{
+        font-size: 160%;
+    }
+    
+}
+
+/* ........... */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&family=Poppins:ital,wght@0,200;0,300;0,600;1,200;1,400&display=swap');
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    outline: none;
+    border: none;
+}
+
+input {
+    outline: none;
+    border: none;
+}
+
+.logo img {
+    width: 90px;
+}
+
+.main {
+    width: 100%;
+    height: 768px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(images/watch.jpeg);
+}
+
+.main-heading {
+    font-family: 'Baloo Da 2', cursive;
+    width: 500px;
+    position: absolute;
+    padding: 40px;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    background: #000000b0;
+    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.main-heading span {
+    color: orangered;
+    border-bottom: 2px solid orangered;
+}
+
+.main-heading .details {
+    color: antiquewhite;
+}
+
+.main-heading h1 {
+    font-family: 'Baloo Da 2', cursive;
+    font-size: 42px;
+    margin: 0px;
+    letter-spacing: 3px;
+    color: #fff
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.336);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: #0f0f0f;
+}
+
+nav ul {
+    display: flex;
+}
+
+.active {
+    background-color: #dd003f;
+    color: #ffffff;
+    box-shadow: 5px 10px 30px rgba(198, 64, 64, 0.411);
+    transition: all ease 0.2s;
+}
+
+nav ul li a {
+    font-family: 'Baloo Da 2', cursive;
+    height: 40px;
+    line-height: 43px;
+    margin: 3px;
+    padding: 0px 22px;
+    display: flex;
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #ffffff;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: 0.2s ease-in-out;
+}
+
+nav ul li a:hover {
+    background-color: #dd003f;
+    color: #ffffff;
+    box-shadow: 5px 10px 30px rgba(198, 64, 64, 0.411);
+    transition: all ease 0.2s;
+}
+
+nav .menu-btn,
+.menu-icon {
+    display: none;
+}
+.g1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* height: 40vw; */
+    width: 100vw;
+    background-color: #dd003f;
+    box-shadow: 1vw 1vw 2vw black;
+    margin: 5vh;
+    
+}
+.g1a{
+    background-color: #FFF;
+    margin: 15vh;
+    box-shadow: 1vw 1vw 2vw black;
+}
+.second{
+    
+    justify-content: center
+}
+.footeritem{
+    margin-left: 70px;
+    margin-right: 70px;
+    border-radius: 10;
+}
+.carousel slide
+{
+    background-color: black;
+}
+
+
+
